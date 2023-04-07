@@ -1,0 +1,39 @@
+databases:
+  mongo:
+    connection:
+      external_host: ""
+      external_port:
+      qcloud_host: ""
+      qcloud_port:
+      user: ""
+      pwd: ""
+    database:
+    table:
+
+redis:
+  auth: ""
+  host: ""
+  port: ""
+  video_process_queue_timeout: ''
+
+
+youtube:
+  connection:
+    host: ""
+    port:
+    api: ""
+  api_url: "https://www.googleapis.com/youtube/v3/"
+  api_key:
+
+
+cos:
+  credentials:
+    secret_id: ""
+    secret_key: ""
+    cos_region: ""
+  storage:
+    cos_bucket: "prc--"
+
+download_cosfile:
+  threadpool:
+    max_worker:
